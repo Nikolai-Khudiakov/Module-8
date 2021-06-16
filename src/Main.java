@@ -7,6 +7,7 @@ class Main {
         for(File t: files) {
             t.delete();
         }
-        file.delete();
+        System.out.println(file.delete());
+
     }
 }
